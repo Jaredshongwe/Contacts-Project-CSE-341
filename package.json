@@ -1,0 +1,19 @@
+{
+  "name": "contacts-project-cse-341",
+  "version": "1.0.0",
+  "description": "Contacts project for CSE 341 class",
+  "main": "sever.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaredshongwe/CSE341-Contacts-Project.git"
+  },
+  "author": "Jared Shongwe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaredshongwe/CSE341-Contacts-Project/issues"
+  },
+  "homepage": "https://github.com/Jaredshongwe/CSE341-Contacts-Project#readme"
+}
