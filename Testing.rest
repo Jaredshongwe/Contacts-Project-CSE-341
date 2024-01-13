@@ -1,0 +1,8 @@
+//Testing if API is live
+GET https://cse341contactproject.onrender.com
+
+//Testing getAll function and connection to Mongodb
+GET https://cse341contactproject.onrender.com/contacts
+
+//Testing getSingle function
+GET https://cse341contactproject.onrender.com/contacts/65a2767dc6dc16913559e6c8
