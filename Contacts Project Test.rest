@@ -1,3 +1,6 @@
+//Testing if API is live on port 3000
+GET http://localhost:3000 
+
 //Testing if API is live
 GET https://cse341contactproject.onrender.com
 
