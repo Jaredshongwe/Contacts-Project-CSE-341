@@ -1,4 +1,7 @@
 // Local host
+### Home page
+GET http://localhost:3000/contacts
+
 ### All contacts
 GET http://localhost:3000/contacts
 
@@ -30,8 +33,11 @@ Content-Type: application/json
 ### Delete contact
 DELETE http://localhost:3000/contacts/[id]
 
+
+
+
 // Render
-### Testing if API is live
+### Home page
 GET https://cse341contactproject.onrender.com
 
 ### All contacts
@@ -39,3 +45,28 @@ GET https://cse341contactproject.onrender.com/contacts
 
 ### Single contact
 GET https://cse341contactproject.onrender.com/contacts/65a2767dc6dc16913559e6c8
+
+### Create contact
+POST  https://cse341contactproject.onrender.com/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "jDoe@test.org",
+    "favoriteColor": "Beige",
+    "birthday": "January 1st 1999"
+}
+### Modify contact
+PUT  https://cse341contactproject.onrender.com/contacts/[id]
+Content-Type: application/json
+
+{
+    "firstName": "Mary",
+    "lastName": "Jane",
+    "email": "Mary@jane.com",
+    "favoriteColor": "Maroon",
+    "birthday": "February 28th 2002"
+}
+### Delete contact
+DELETE https://cse341contactproject.onrender.com/contacts/[id]
