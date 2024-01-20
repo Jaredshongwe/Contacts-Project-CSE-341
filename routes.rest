@@ -17,7 +17,7 @@ Content-Type: application/json
     "birthday": "January 1st 1999"
 }
 ### Modify contact
-PUT  http://localhost:3000/contacts/65abe7d6f69c597b829283e4
+PUT  http://localhost:3000/contacts/[id]
 Content-Type: application/json
 
 {
@@ -28,7 +28,7 @@ Content-Type: application/json
     "birthday": "February 28th 2002"
 }
 ### Delete contact
-DELETE http://localhost:3000/contacts/65abe7d6f69c597b829283e4
+DELETE http://localhost:3000/contacts/[id]
 
 // Render
 ### Testing if API is live
