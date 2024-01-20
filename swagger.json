@@ -5,7 +5,7 @@
     "description": "Contacts Api for CSE341",
     "version": "1.0.0"
   },
-  "host": "https://cse341contactproject.onrender.com",
+  "host": "cse341contactproject.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
