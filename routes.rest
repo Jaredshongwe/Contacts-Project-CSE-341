@@ -1,6 +1,6 @@
 // Local host
 ### Home page
-GET http://localhost:3000/contacts
+GET http://localhost:3000
 
 ### All contacts
 GET http://localhost:3000/contacts
